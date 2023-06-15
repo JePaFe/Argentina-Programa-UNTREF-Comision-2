@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;700&display=swap");
+
+/* h1 {
+  color: violet !important;
+}
+
+p {
+  color: red;
+}
+
+.segundo-parrafo {
+  color: darkmagenta;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#primer-parrafo {
+  color: gold;
+} */
+
+/* En la presentacion falta la coma */
+
+/* h1,
+h2 {
+  color: red;
+} */
+
+/* .logo {
+  color: red;
+} */
+
+/* body {
+  color: red;
+} */
+
+/* 
+p {
+  color: green;
+}
+
+section p {
+  color: red;
+} */
+
+main > p {
+  color: brown;
+}
+
+h2 ~ p {
+  color: blue;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+main {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+}
