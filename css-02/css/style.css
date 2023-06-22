@@ -1,0 +1,51 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+a {
+  text-decoration: underline;
+}
+
+header {
+  width: 50vw;
+  background-color: red;
+  padding: 0.25em;
+}
+
+header {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  width: 75%;
+  background-color: blue;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+span {
+  font-size: 2em;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 5px 5px green;
+}
+
+#segundo-parrafo {
+  /* text-transform: capitalize; */
+  text-indent: 1.5rem;
+  /* letter-spacing: 3px; */
+  line-height: 1.5;
+  word-spacing: 2px;
+  text-shadow: 5px 5px 4px green;
+  writing-mode:sideways-lr;
+}
