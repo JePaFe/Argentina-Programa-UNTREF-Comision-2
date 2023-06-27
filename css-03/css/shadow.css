@@ -1,0 +1,13 @@
+.box {
+  /* border: 1px solid saddlebrown; */
+  width: 100px;
+  height: 100px;
+  box-shadow: 3px -3px 5px rgb(84, 84, 124);
+}
+
+.text-shadow {
+  width: 100px;
+  height: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  filter: invert(100%);
+}

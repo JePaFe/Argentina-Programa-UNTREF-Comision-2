@@ -1,0 +1,27 @@
+.box {
+  display: inline-block;
+  margin-right: 2em;
+  border: solid;
+  width: 100px;
+  height: 100px;
+}
+
+.box-1 {
+  overflow: scroll;
+  background-color: red;
+}
+
+.box-2 {
+  overflow: hidden;
+  background-color: green;
+}
+
+.box-3 {
+  overflow: auto;
+  background-color: blue;
+}
+
+.box-4 {
+  overflow: visible;
+  background-color: orange;
+}
