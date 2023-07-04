@@ -1,0 +1,49 @@
+.enlace:link {
+  color: aqua;
+}
+
+.enlace:visited {
+  color: darkgoldenrod;
+}
+
+.enlace:active {
+  color: darkorange;
+}
+
+.enlace:hover {
+  text-decoration: none;
+  color: fuchsia;
+  cursor: crosshair;
+  font-size: 2em;
+}
+
+/* a {
+  color: burlywood;
+} */
+
+h1:hover {
+  font-weight: normal;
+}
+
+/* section:last-child p:last-child {
+  color: coral;
+  text-decoration: overline;
+} */
+
+/* section:last-child p:last-child:hover {
+  color: blueviolet;
+  text-decoration: underline;
+} */
+
+/* section:first-child span:first-of-type {
+  color: coral;
+  text-decoration: overline;
+} */
+
+/* p:nth-last-of-type(1) {
+  color: hotpink;
+} */
+
+p:only-of-type {
+  color: burlywood;
+}

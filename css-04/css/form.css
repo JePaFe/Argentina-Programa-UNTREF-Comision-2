@@ -1,0 +1,40 @@
+label {
+  display: block;
+}
+
+input,
+textarea {
+  width: 50vw;
+}
+
+/* input {
+  padding: 0.25em .5em;
+  border: red solid 2px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 3px 3px 5px red;
+} */
+
+/* input:focus {
+  box-shadow: 3px 3px 5px green;
+} */
+
+/* input:disabled {
+    background-color: brown;
+} */
+
+input:invalid {
+  border: solid red;
+  outline: none;
+}
+
+input:valid {
+  border: solid green;
+  outline: none;
+}
+
+/* input:required {
+  border: solid darkorchid;
+  outline: none;
+} */

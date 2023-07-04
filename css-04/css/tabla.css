@@ -1,0 +1,13 @@
+tr:nth-child(even) {
+  background-color: aqua;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:hover {
+  background-color: darkorange;
+  color: snow;
+}
