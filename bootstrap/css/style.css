@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+h1,
+h2,
+h3 {
+  font-family: "Belanosima", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-info {
+  background-color: #9c27b0 !important;
+  color: snow;
+}
