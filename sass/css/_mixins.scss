@@ -1,0 +1,6 @@
+@mixin untref($ancho, $alto, $fondo) {
+  width: $ancho;
+  height: $alto;
+  background-color: $fondo;
+  padding: 1em;
+}

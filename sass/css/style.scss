@@ -1,0 +1,22 @@
+@import "./reset";
+@import "./variables";
+@import "./mixins";
+
+@import "./header";
+@import "./main";
+
+.btn-1 {
+  background-color: $color-primary;
+  border: none;
+  padding: 5px 10px;
+  color: map-get($colors, azul);
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-2 {
+  font-family: $font-primary;
+  @extend .btn-1;
+  background-color: map-get($colors, verde);
+  color: snow;
+}

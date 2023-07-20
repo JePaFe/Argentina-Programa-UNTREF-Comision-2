@@ -1,0 +1,4 @@
+main {
+  @include untref(100%, 200px, $color-primary);
+  color: map-get($colors, rojo);
+}

@@ -1,0 +1,17 @@
+header {
+  @include untref (100%, 150px, blue);
+  color: $color-primary;
+
+  nav {
+    border: solid;
+    padding: 0.5em;
+  }
+
+  a {
+    color: $color-primary;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
