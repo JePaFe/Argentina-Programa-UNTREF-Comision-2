@@ -1,0 +1,10 @@
+#nombre:focus {
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px gray;
+  border: none;
+  outline: none;
+}
+
+h1:hover {
+  cursor: pointer;
+}

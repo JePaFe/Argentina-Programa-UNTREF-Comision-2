@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse</title>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mouse</h1>
+    <div class="box"></div>
+
+    <script>
+      const h1 = document.querySelector("h1");
+
+      h1.addEventListener("click", function () {
+        alert("click en h1");
+      });
+
+      const box = document.querySelector(".box");
+
+      box.addEventListener("mouseover", function (event) {
+        alert(`${event.clientX}, ${event.clientY}`);
+        console.log(event);
+      });
+    </script>
+  </body>
+</html>
