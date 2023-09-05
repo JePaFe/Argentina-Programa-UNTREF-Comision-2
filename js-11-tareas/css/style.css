@@ -1,0 +1,15 @@
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
+
+.done {
+  text-decoration: line-through;
+}
+
+.bx-check {
+  color: green;
+  cursor: pointer;
+}
+
+.bx-trash {
+  color: red;
+  cursor: pointer;
+}
