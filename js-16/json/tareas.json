@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "texto": "Tarea 1"
+  },
+  {
+    "id": 2,
+    "texto": "Tarea 2",
+    "precio": 1000000.56
+  },
+  {
+    "id": 3,
+    "texto": "Tarea 3"
+  }
+]

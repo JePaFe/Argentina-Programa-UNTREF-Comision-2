@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle</title>
+  </head>
+  <body>
+    <h1>Detalle</h1>
+
+    <script>
+      tareas = localStorage.getItem("tareas");
+      id = sessionStorage.getItem("id");
+
+      console.log(tareas, id);
+      // localStorage
+      // sessionStorage o ID de la URL
+
+      //   document.addEventListener("DOMContentLoaded", function () {
+      //     // Get the product ID from the URL query parameters
+      //     const urlParams = new URLSearchParams(window.location.search);
+      //     const productId = parseInt(urlParams.get("id"));
+      //     console.log(productId);
+      //   });
+    </script>
+  </body>
+</html>
