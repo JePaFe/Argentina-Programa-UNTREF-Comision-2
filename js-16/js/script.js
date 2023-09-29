@@ -31,6 +31,12 @@ const createTask = (tarea) => {
 
   //   li.textContent = money.format(tarea.precio);
 
+  li.addEventListener("click", () => {
+    // id
+    // sessionStorage
+    window.location = "detalle.html";
+  });
+
   li.textContent = tarea.texto;
 
   li.setAttribute("data-id", tarea.id);
